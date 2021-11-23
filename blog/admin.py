@@ -1,7 +1,9 @@
 from django.contrib import admin
 
-from blog.models import Post, PostBody
+from blog.models import Article, ArticleParagraph, Tag, ParagraphType
 
 
-admin.site.register(Post)
-admin.site.register(PostBody)
+admin.site.register(Article)
+admin.site.register(ArticleParagraph)
+admin.site.register(Tag)
+admin.site.register(ParagraphType)
